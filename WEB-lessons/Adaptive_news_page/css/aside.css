@@ -1,0 +1,35 @@
+.ad-section {
+  margin-top: 52px;
+  padding-left: 25px;
+
+  width: 100%;
+}
+
+.ad-section__ad-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+
+  overflow-x: scroll;
+}
+
+.ad-list__ad-item {
+  min-width: 250px;
+}
+
+.ad-list__ad-item:not(:first-child) {
+  margin-left: 20px;
+}
+
+.ad-item__ad-link {
+  display: block;
+}
+
+.ad-img{
+  width: 100%;
+  height: 400px
+}

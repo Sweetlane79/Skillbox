@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box; 
+
+  font-size: 14px;
+}
+
+*, 
+*::before, 
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  min-width: 320px;
+
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+
+  color: #000;
+  background-color: #f9f9f9;
+  
+  word-break: break-word;
+}
+
+body.modal-active {
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+figure {
+  margin: 0;
+}
+
+.stop-scrolling {
+  height: 100%;
+  
+  overflow: hidden;
+}
+
+.visually-hidden {
+  position: absolute !important;
+
+  padding:0 !important;
+
+  width: 1px !important; 
+  height: 1px !important; 
+
+  border:0 !important;
+
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	
+	overflow: hidden;
+}
+
+.common-publication-time {
+  background-image: url("../img/clock_img_blue.png");
+  background-position: left center;
+  background-size: 12px;
+  background-repeat: no-repeat;
+}
+
+.common-comments {
+  background-image: url("../img/comments_img.png");
+  background-position: left center;
+  background-size: 12px;
+  background-repeat: no-repeat;
+}
+

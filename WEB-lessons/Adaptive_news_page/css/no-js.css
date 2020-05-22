@@ -1,0 +1,39 @@
+.no-js .bottom-bar__navigation {
+  position: unset;
+
+  display: block;
+  padding: 0;
+
+  min-height: 368px;
+}
+
+.no-js .navigation__list {
+  padding: 19px 0 0;
+}
+
+.no-js .navigation-list__item:not(:first-child)::before {
+  content: '';
+}
+
+.no-js .navigation-item__link {
+  font-size: 18px;
+  letter-spacing: 0.45px;
+}
+
+.no-js .navigation-list__item:not(:last-child) {
+  padding-bottom: 11px;
+
+  border-bottom: 1px solid #ebebeb;
+}
+
+.no-js .bottom-bar__current-date {
+  margin: 20px 0 0;
+
+  font-size: 15px;
+}
+
+.no-js .bottom-bar__weather{
+  margin: 14px 0 0;
+
+  font-size: 15px;
+}

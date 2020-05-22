@@ -1,0 +1,41 @@
+.menu-open .hamburger-menu__span {
+  height: 0;
+}
+
+.menu-open .hamburger-menu__span:before {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.menu-open .hamburger-menu__span:after {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.menu-open .bottom-bar__navigation {
+ top: 55px;
+
+ display: block;
+ margin: 0;
+ padding: 0;
+
+ height: 500px;
+
+ -webkit-transition: 0.5s;
+ -o-transition: 0.5s;
+ transition: 0.5s;
+
+ background-color: #fff;
+
+ z-index: 2;
+}
