@@ -1,0 +1,13 @@
+.imported-button {
+  font-size: 14px;
+
+  width: 60px;
+  height: 60px;
+
+  color: #fff;
+  background-color: #2174fd;
+  
+  border: none;
+  border-radius: 50%;
+}
+  
