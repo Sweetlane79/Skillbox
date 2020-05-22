@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Простой переводчик</title>
+  <link rel="stylesheet" href="../Module_11//css/normolize.css">
+  <link rel="stylesheet" href="../Module_11//css/common-styles.css">
+  <link rel="stylesheet" href="../Module_11//css/main.css">
+  <script src="../Module_11//js/simpleTranslator.js" defer></script>
+</head>
+<body>
+  <h1 class="visually-hidden">Переводчик</h1>
+  <main class="main-section">
+
+    <form action="https://translate.yandex.net/api/v1.5/tr.json/translate" class="main-section__form js-main-form">
+      <section class="section">
+        <h2 class="section-header visually-hidden">Исходный текст</h2>
+        <label class="left-section__input-text">
+          <textarea name="input-textarea" cols="30" rows="4" class="input-text__textarea js-input-textarea" placeholder="Введите слово для перевода" required></textarea>
+        </label>
+  
+        <label class="section__choose-language">
+          <select name="language-select" class="choose-language__select js-source-language">
+            <option class="language-select" value="ru" selected>Русский</option>
+  
+            <option class="language-select" value="en">Английский</option>
+  
+            <option class="language-select" value="de">Немецкий</option>
+  
+            <option class="language-select" value="fr">Французский</option>
+          </select>
+        </label>
+      </section>
+
+  
+      <section class="section">
+        <div class="right-section__text-field js-text-field"></div>
+  
+        <label class="section__choose-language">
+          <select name="language-select" class="choose-language__select js-translated_language">
+            <option class="language-select" value="ru">Русский</option>
+  
+            <option class="language-select" value="en" selected>Английский</option>
+  
+            <option class="language-select" value="de">Немецкий</option>
+  
+            <option class="language-select" value="fr">Французский</option>
+          </select>
+        </label>
+      </section>
+
+      <button type="submit" class="submit-btn">Перевести</button>
+    </form>
+  </main>
+</body>
+</html>
