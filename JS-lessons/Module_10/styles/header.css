@@ -1,0 +1,17 @@
+.header-section {
+  color: #fff;
+  background-color: #000;
+}
+
+.header-container {
+  margin: 0 auto;
+
+  width: 1000px;
+}
+
+.header-section__main-header {
+  margin: 0;
+  padding: 20px 0;
+
+  text-align: center;
+}

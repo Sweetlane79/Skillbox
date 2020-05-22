@@ -1,0 +1,51 @@
+.main-section {
+  padding-top: 30px;
+}
+
+.main-container{
+  margin: 0 auto;
+  padding: 20px 20px;
+
+  width: 840px;
+
+  background-color: #fff;
+}
+
+.main-section__text-block {
+  margin-bottom: 15px;
+
+  width: 800px;
+  height: 400px;
+
+  padding: 13px;
+
+  font-size: 18px;
+
+  color: #aca8a8;
+  background-color: #f6f6f6;
+
+  border: 1px solid #ebebeb;
+
+  text-align: center;
+
+  overflow: auto;
+}
+
+
+.cancel-btn {
+  float: right;
+
+  background-color: #99bcf5;
+}
+
+.save-btn {
+  float: right;
+  margin-right: 15px;
+
+  background-color: #99bcf5;
+}
+
+
+
+
+
