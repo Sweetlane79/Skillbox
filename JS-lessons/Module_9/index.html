@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+
+<link rel="stylesheet" href="styles/normolize.css">
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/left-section.css">
+<link rel="stylesheet" href="styles/right-section.css">
+
+<script src="js/addTask.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1 class="main-header visually-hidden">To-Do list</h1>
+
+    <div class="main-container clearfix">
+      <section class="left-section section-style">
+        <h2 class="section-header-style">Добавить новую задачу</h2>
+  
+        <label class="left-section__input">
+          <input type="text" class="input__task-name js-task" name="task-name" placeholder="Введите необходимую задачу">
+        </label>
+
+        <button type="button" class="add-task-btn js-add-task-btn" >Добавить задачу</button>
+      </section>
+
+      <section class="right-section section-style">
+        <h2 class="section-header-style right-section__header">Ваши задачи:</h2>
+
+        <p class="right-section__info-text js-info-text">Новых задач нет...</p>
+
+        <ol class="right-section__list js-task-list" style="display: none;"></ol>
+      </section>
+    </div>
+  </main>
+  
+</body>
+</html>

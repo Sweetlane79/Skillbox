@@ -1,0 +1,30 @@
+.left-section {
+  float: left;
+
+  width: 425px;
+}
+
+.input__task-name {
+  padding: 10px;
+  width: 250px;
+
+  border: 1px solid #ebebeb;
+
+  background-color: #f6f6f6;
+}
+
+.add-task-btn {
+  margin-left: 10px;
+  padding: 5px;
+
+  border: none;
+
+  color: #fff;
+  background-color: #2174fd;
+
+  cursor: pointer;
+} 
+
+.empty-field {
+  border: 1px solid #FF0000;
+}
