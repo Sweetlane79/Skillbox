@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Модуль 4</title>
+  <link rel="stylesheet" href="styles/normolize.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/left-section.css">
+  <link rel="stylesheet" href="styles/right-section.css">
+
+  <script src="Js/jquery-3.4.1.min.js" defer></script>
+  <script src="Js/caselist.js" defer></script>
+</head>
+<body>
+  <main class="main">
+    <h1 class="main-header visually-hidden">Задание по модулю 4</h1>
+
+    <div class="container clearfix">
+      <section class="main__left-section">
+        <h2 class="section-header">Список дел:</h2>
+
+        <p class="left-section__info-text js-infotext">Список пуст...</p>
+        
+        <ul class="case-list js-caselist"></ul>
+      </section>
+
+      <section class="main__right-section">
+        <h2 class="section-header">Добавить новое дело</h2>
+
+        <form action="#" class="form js-form" method="post">
+          <label class="form__input-names case-name">
+            <span class="required-star">*</span> Название
+            <input class="case-name__text-input js-textinput" type="text" name='case-name' placeholder="Введите название дела" required>
+          </label>
+
+          <label class="form__input-names">
+            <span class="required-star">*</span> Описание
+            <textarea class="case-description js-casedescription"  name="case-description" cols="50" rows="12" placeholder="Введите описание" required></textarea>
+          </label>
+
+          <button class="add-case-btn js-addcasebtn" type="submit">Добавить дело</button>
+        </form>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

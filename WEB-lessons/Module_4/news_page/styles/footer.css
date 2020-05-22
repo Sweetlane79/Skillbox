@@ -1,0 +1,161 @@
+.footer {
+  background-color: #00122f;
+}
+
+.footer-container {
+  padding-top: 54px;
+}
+
+.footer__navigation {
+  float: left;
+}
+
+.footer-navigation__list {
+  margin: 0;
+  padding: 0;
+
+  width: 235px;
+
+  columns: 2;
+  column-gap: 40px;
+}
+
+.footer-navigation__item {
+  margin-bottom: 12px;
+
+  list-style-type: none;
+}
+
+.footer-navigation__link {
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  color: #fff;
+}
+
+.about {
+  float: left;
+  margin-left: 200px;
+  padding-top: 5px;
+}
+
+.about__list {
+  margin: 15px 0 0 0;
+  padding: 0 0 0 3px;
+}
+
+.about__item {
+  margin-bottom: 11px;
+
+  list-style-type: none;
+}
+
+.about__link {
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  color: #fff;
+}
+
+
+.social {
+  float: right;
+  padding-top: 14px;
+}
+
+.social-media__list {
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+
+.social-media__item {
+  display: inline;
+  margin-left: 20px;
+
+  list-style-type: none;
+}
+
+.social-media__item:first-child {
+  margin-left: 0;
+}
+
+.social-link {
+  padding: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vk-link {
+  background-image: url("../img/vk_logo_img.png");
+}
+
+.fb-link {
+  background-image: url("../img/fb_logo_img.png");
+}
+
+.tw-link {
+  background-image: url("../img/twitter_logo_img.png");
+}
+
+.inst-link {
+  background-image: url("../img/instagram_logo_img.png");
+}
+
+.contacts {
+  float: right;
+  margin-top: 12px;
+  padding-right: 40px;
+}
+
+.contacts__list {
+  margin: 0;
+  padding: 38px 0 0 0;
+}
+
+.contacts__items {
+  margin-bottom: 24px;
+
+  font-style: normal;
+  list-style-type: none;
+}
+
+.contacts__items:last-child{
+  margin: 0;
+  padding-bottom: 0;
+  padding-left: 3px;
+}
+
+.contacts__link {
+  padding-left: 33px;
+
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.phone-img {
+  background-image: url("../img/phone_img.png");
+}
+
+.mail-img {
+  background-image: url("../img/mail_img.png");
+}
+
+.copyright {
+  margin: 49px 0 0 0;
+  padding: 16px 0;
+
+  width: 100%;
+
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.trade__mark {
+  width: 100%;
+
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  color: #ccc;
+}

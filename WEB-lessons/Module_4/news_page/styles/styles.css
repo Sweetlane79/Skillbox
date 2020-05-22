@@ -1,0 +1,118 @@
+/* ширина блоков не учитвает margin */
+html {
+  box-sizing: border-box; 
+}
+
+/* алгоритм расчета блока наследутся от родителя */
+*, 
+*::before, 
+*::after {
+  box-sizing: inherit;
+}
+
+/* задаем начальные значения для всего документа(основной шриты в документе,  цвет и т.д.) */
+body {
+  /* min-width: ; */
+  margin: 0;
+  padding: 0;
+
+  min-width: 1000px;
+
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  color: #000;
+  
+  word-break: break-word;
+}
+
+/* если у нас есть модульное окно и в нем есть скролл,  то по достижении нижней границы модульного окна, основная страница не начнет проркучиваться вниз */
+body.modal-active {
+  overflow: hidden;
+}
+
+/* задаем максимальный размер для картинок */
+img {
+  display: block;
+  
+  max-width: 100%;
+}
+
+/* офромление ссылкок по всему доекменту */
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+/* псевдожлемент от схлопывания блоков */
+.clearfix::after {
+  display: block;
+
+  content: "";
+  
+  clear: both;
+}
+
+/* основной контейнер */
+.container {
+  margin: 0 auto;
+
+  width: 1000px;
+}
+
+.figure-common-style {
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute !important;
+
+  padding:0 !important;
+
+  width: 1px !important; 
+  height: 1px !important; 
+
+  border:0 !important;
+
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	
+	overflow: hidden;
+}
+
+.publication-time_style {
+  display: inline-block;
+
+  padding-top: 1px;
+  padding-left: 15px;
+
+  font-size: 12px;
+
+  background-image: url("../img/clock_img_blue.png");
+  background-position: left center;
+  background-size: 11px;
+  background-repeat: no-repeat;
+}
+
+.comments_style {
+  display: inline-block;
+
+  padding-top: 1px;
+  padding-left: 14px;
+
+  font-size: 12px;
+
+  background-image: url("../img/comments_img.png");
+  background-position: left center;
+  background-size: 11px;
+  background-repeat: no-repeat;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+

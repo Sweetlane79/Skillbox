@@ -1,0 +1,22 @@
+.ad-section {
+  float: left;
+  margin-left: 18px;
+
+  width: 250px;
+}
+
+.ad-list {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.ad-list__item {
+  margin-bottom: 20px;
+
+  list-style-type: none;
+}
+
+.ad-list__item:last-child {
+  margin-bottom: 0px;
+}
